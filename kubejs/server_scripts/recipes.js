@@ -500,7 +500,7 @@ ServerEvents.recipes(event => {
         'kubejs:void_core_shard'
     ])
     event.shapeless('16x kubejs:void_core_shard', [
-        'kubejs:void_core_shard'
+        'kubejs:void_core'
     ])
     event.shapeless('minecraft:blaze_rod', [
         '4x minecraft:blaze_powder'
