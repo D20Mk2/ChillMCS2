@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         'RER'
     ], {
         D: 'minecraft:diamond',
-        E: '#minecraft:emerald',
+        E: 'minecraft:emerald',
         R: 'minecraft:redstone',
     })
     event.recipes.create.mechanical_crafting('kubejs:artifact_core_t2', [
