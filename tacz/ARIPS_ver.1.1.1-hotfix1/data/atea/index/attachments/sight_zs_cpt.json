@@ -1,0 +1,7 @@
+{
+  "name": "atea.attachment.sight_zs_cpt.name",
+  "tooltip": "atea.attachment.sight_zs_cpt.desc",
+  "display": "atea:sight_zs_cpt_display",
+  "data": "atea:sight1_mini_data",
+  "type": "scope"
+}

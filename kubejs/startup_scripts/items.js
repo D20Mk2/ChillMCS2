@@ -1,0 +1,10 @@
+StartupEvents.registry('item', e => {
+    e.create('void_core').displayName('Пустотное ядро')
+    e.create('void_core_shard').displayName('Пустотный Осколок')
+    e.create('artifact_alloy_t1').displayName('Простой артефактный сплав')
+    e.create('artifact_alloy_t2').displayName('Комплексный артефактный сплав')
+    e.create('artifact_alloy_t3').displayName('Совершенный артефактный сплав')
+    e.create('artifact_core_t1').displayName('Простое ядро артефакта')
+    e.create('artifact_core_t2').displayName('Комплексное ядро артефакта')
+    e.create('artifact_core_t3').displayName('Совершенное ядро артефакта')
+})

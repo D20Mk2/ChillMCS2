@@ -1,0 +1,93 @@
+{
+	"weight": 2,
+	"ads": {
+		"addend": 0.1
+	},
+	"effective_range": {
+		"addend": 10,
+		"percent": 1,
+		"multiplier": 2
+	},
+	"ammo_speed": {
+		"addend": 100,
+		"percent": 1,
+		"multiplier": 2
+	},
+	"damage": {
+		"addend": 5,
+		"percent": 4,
+		"multiplier": 5
+	},
+	"armor_ignore":{
+		"addend": 1,
+		"multiplier": 2
+	},
+	"pierce": {
+		"addend": 1,
+		"multiplier": 2
+	},
+	"melee": {
+		"distance": 90,
+		"range_angle": 70,
+		"cooldown": 0,
+		"damage": 0,
+		"knockback": 0,
+		"prep": 0.1,
+		"effects": [
+			{
+				"id": "minecraft:glowing",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:darkness",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:slowness",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:weakness",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:mining_fatigue",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:hunger",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:nausea",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:poison",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			},
+			{
+				"id": "minecraft:wither",
+				"time": 5,
+				"amplifier": 1,
+				"hide_particles": true
+			}
+		]
+	}
+}

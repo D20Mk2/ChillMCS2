@@ -1,0 +1,9 @@
+{
+  "slot": "arip:attachment/slot/tacit",
+  "model": "arip:attachment/tacit_geo",
+  "texture": "arip:attachment/uv/tacit",
+  "sounds": {
+    "install": "tacz:attachments/muzzle_general",
+    "uninstall": "tacz:attachments/muzzle_general"
+  }
+}

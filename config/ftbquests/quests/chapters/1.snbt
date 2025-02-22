@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "4608450C04AEB6A7"
+	id: "438963C50707126F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "486140C5DD5B081D"
+			tasks: [{
+				id: "21C043A8CC6D2413"
+				title: "О какой идеальный мир"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["486140C5DD5B081D"]
+			id: "1160D42677581792"
+			tasks: [{
+				count: 16L
+				id: "2B652DBC4C0E6108"
+				item: { Count: 16, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2555D91004061549"]
+			id: "7E1B61EBFBBDE8E1"
+			tasks: [{
+				count: 16L
+				id: "4888209A04FC7C95"
+				item: { Count: 16, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E1B61EBFBBDE8E1"]
+			id: "4D21990F1877F1F5"
+			tasks: [{
+				id: "2B0392D00B096E62"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1160D42677581792"]
+			id: "2555D91004061549"
+			tasks: [{
+				count: 16L
+				id: "28370FCE3408B8B4"
+				item: { Count: 16, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2555D91004061549"]
+			id: "7DECF3F2C4CA239E"
+			tasks: [{
+				count: 16L
+				id: "3191D075F3CC99D0"
+				item: { Count: 16, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2555D91004061549"]
+			id: "68CCE6062330D233"
+			tasks: [{
+				count: 16L
+				id: "27478470F04082CE"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2555D91004061549"]
+			id: "022C2ADE85E15787"
+			tasks: [{
+				count: 16L
+				id: "1A7928366A71E890"
+				item: { Count: 16, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E1B61EBFBBDE8E1"]
+			id: "5C21C9C59F99BDA6"
+			tasks: [{
+				count: 16L
+				id: "7D5F62555BE1A616"
+				item: { Count: 16, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E1B61EBFBBDE8E1"]
+			id: "1F70878780343865"
+			tasks: [{
+				count: 16L
+				id: "3AE0927A8952A332"
+				item: { Count: 16, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+	]
+	title: "Глава 1: Начало"
+}

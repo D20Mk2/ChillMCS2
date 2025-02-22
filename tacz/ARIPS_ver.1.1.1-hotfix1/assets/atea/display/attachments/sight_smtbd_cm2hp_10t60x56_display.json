@@ -1,0 +1,33 @@
+{
+  "slot": "atea:attachment/slot/sight_smtbd_cm2hp_10t60x56",
+  "model": "atea:attachment/sight_smtbd_cm2hp_10t60x56_geo",
+  "texture": "atea:attachment/uv/sight_smtbd_cm2hp_10t60x56",
+  "lod": {
+    "model": "atea:attachment/lod/sight_smtbd_cm2hp_10t60x56_lod",
+    "texture": "atea:attachment/lod/sight_smtbd_cm2hp_10t60x56_lod"
+  },
+  "zoom": [
+    10.0,
+    20.0,
+    60.0,
+    1.25
+  ],
+  "views": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "views_fov": [
+    20.0,
+    20.0,
+    20.0,
+    60.0
+  ],
+  "scope": true,
+  "sight": true,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_a",
+    "uninstall": "tacz:attachments/scope_general_a"
+  }
+}
